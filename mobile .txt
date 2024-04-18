@@ -1,0 +1,37 @@
+/* mobile */
+@media (max-width: 450px) {
+    html {
+        font-size: 400;
+    }
+
+    h1 {
+        position: relative;
+        font-size: 400;
+        color: var(--black);
+    }
+
+    .header h1::after {
+        content: '';
+        left: -11.5%;
+        bottom: -10%;
+        position: absolute;
+        border: 3px solid var(--red);
+        width: 78%;
+    }
+
+    h1 {
+        position: relative;
+        font-size: 400;
+        color: var(--black);
+    }
+
+    h1::after {
+        content: '';
+        left: -11.5%;
+        bottom: -10%;
+        position: absolute;
+        border: 3px solid var(--red);
+        width: 40.5%;
+        
+    }
+}
